@@ -1,4 +1,5 @@
 # 打卡签到App
 
-## 一款可以用于日常打卡记录的软件
-## 其中还有To Do List功能和小游戏2048
+### 一款可以用于日常记录的App
+### 包含打卡记录，To Do List，小游戏2048
+ [apk下载链接，提取码：23vf](https://pan.baidu.com/s/1c_3U3bx16RTgvnARG62-hA) 
