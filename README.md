@@ -1,24 +1,6 @@
-# study1
+# 打卡签到App
 
-## Project setup
-```
-npm install
-```
+## 一款可以用于日常打卡记录的软件
+##
+## 其中还有To Do List功能和小游戏2048
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
