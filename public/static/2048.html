@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="./css/2048.css">
+</head>
+<body onload="start()">
+    <div class="backImg">
+        <div class="wrapper">
+            <div class="square" id="s11"></div>
+            <div class="square" id="s12"></div>
+            <div class="square" id="s13"></div>
+            <div class="square" id="s14"></div>
+            <div class="square" id="s21"></div>
+            <div class="square" id="s22"></div>
+            <div class="square" id="s23"></div>
+            <div class="square" id="s24"></div>
+            <div class="square" id="s31"></div>
+            <div class="square" id="s32"></div>
+            <div class="square" id="s33"></div>
+            <div class="square" id="s34"></div>
+            <div class="square" id="s41"></div>
+            <div class="square" id="s42"></div>
+            <div class="square" id="s43"></div>
+            <div class="square" id="s44"></div>
+            <button class="direction" id="up" onclick="up()">↑</button>
+            <button class="direction" id="down" onclick="down()">↓</button>
+            <button class="direction" id="left" onclick="left()">←</button>
+            <button class="direction" id="right" onclick="right()">→</button>
+            <button id="new_game" onclick="new_game()">新游戏</button>
+            <div id="score"></div>
+            <div id="maxS">最高成绩：<span id="maxG"></span></div>
+        </div>
+    </div>
+    <script src="./js/2048.js">
+    </script>
+</body>
+</html>

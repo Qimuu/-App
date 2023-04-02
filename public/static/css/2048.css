@@ -1,0 +1,77 @@
+.wrapper {
+    width: 340px;
+    height: 340px;
+    background-color: #C3C0B7;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: calc((100% - 340px) / 2);
+}
+.square {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 7.5px;
+    background-color:#FBEFE3;
+    border-radius: 7.5px;
+    color: #59503F;
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+}
+.direction {
+    width: 100px;
+    height: 65px;
+    border: none;
+    border-radius: 7.5px;
+    color: white;
+    background-color: #C6BFB9;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 65px;
+}
+#new_game {
+    width: 100px;
+    height: 65px;
+    border: none;
+    border-radius: 15px;
+    background-color: #C6BFB9;
+    font-size: 25px;
+    color: #FFFBF7;
+    position: absolute;
+    top:430px;
+    left: 0px;
+}
+#up {
+    position: absolute;
+    top:430px;
+    left:120px;
+}
+#left {
+    position: absolute;
+    top:512px;
+    left:0px;
+}
+#right {
+    position: absolute;
+    top:512px;
+    left:240px;
+}
+#down {
+    position: absolute;
+    top:512px;
+    left:120px;
+}
+#score {
+    width: 100px;
+    height: 65px;
+    border-radius: 15px;
+    background-color: #C6BFB9;
+    font-size: 20px;
+    color: #FFFBF7;
+    position: absolute;
+    top:430px;
+    left: 240px;
+    text-align: center;
+    line-height: 65px;
+}
